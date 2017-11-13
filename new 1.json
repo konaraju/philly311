@@ -1,0 +1,31 @@
+{
+  "name": "DreamHouse Bot for Messenger",
+  "description": "Salesforce-powered Bot for Messenger in the DreamHouse sample app",
+  "env": {
+    "FB_PAGE_TOKEN": {
+      "description": "Facebook Messenger Access Token",
+      "value":"",
+      "required":false
+    },
+    "FB_VERIFY_TOKEN": {
+      "description": "Facebook Verify Token",
+      "value":"fbchatbotphilly311"
+    },
+    "SF_CLIENT_ID": {
+      "description": "Consumer Key of your Salesforce Connected App",
+      "value":"3MVG9g9rbsTkKnAXAXCQckW1mmZj5hQfAJqr7EyKZRh.U1.bZu_qHA2Z5yrFOiydFTBakKuXsFf4GGDwVWA0L"
+    },
+    "SF_CLIENT_SECRET": {
+      "description": "Consumer Secret of your Salesforce Connected App",
+      "value":"4320973075179770252"
+    },
+    "SF_USER_NAME": {
+      "description": "Salesforce username for your integration user",
+      "value":"raju.kona@phila.gov"
+    },
+    "SF_PASSWORD": {
+      "description": "Salesforce password for your integration user",
+      "value":"Philly311"
+    }
+  }
+}
